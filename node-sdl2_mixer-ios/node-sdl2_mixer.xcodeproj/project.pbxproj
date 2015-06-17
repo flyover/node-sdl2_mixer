@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66E6C4940D710BE2F4C19623 /* node-sdl2_mixer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B25C3AB34A2E9112D8B6BDC /* node-sdl2_mixer.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B25C3AB34A2E9112D8B6BDC /* node-sdl2_mixer.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "node-sdl2_mixer.cc"; sourceTree = "<group>"; };
+		53929E82D6AA03BA9750E034 /* libnode-sdl2_mixer-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libnode-sdl2_mixer-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		902B973A11021A63107990B2 /* node-sdl2_mixer.gyp */ = {isa = PBXFileReference; explicitFileType = sourcecode; path = "node-sdl2_mixer.gyp"; sourceTree = "<group>"; };
+		CB3EBE2BEDFDC7B4ADB129CC /* node-sdl2_mixer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "node-sdl2_mixer.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99E7894CF6282B821788C25D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C211EA2A52A267DB8F2A578 = {
+			isa = PBXGroup;
+			children = (
+				C0B0F785AA13E1E240A634ED /* Source */,
+				9EFAE82ED2041E13A38812E7 /* Products */,
+				D6A8708D9CFA6DC3409A0D4A /* Build */,
+			);
+			sourceTree = "<group>";
+		};
+		9EFAE82ED2041E13A38812E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53929E82D6AA03BA9750E034 /* libnode-sdl2_mixer-ios.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0B0F785AA13E1E240A634ED /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				3B25C3AB34A2E9112D8B6BDC /* node-sdl2_mixer.cc */,
+				CB3EBE2BEDFDC7B4ADB129CC /* node-sdl2_mixer.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		D6A8708D9CFA6DC3409A0D4A /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				902B973A11021A63107990B2 /* node-sdl2_mixer.gyp */,
+			);
+			name = Build;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F5A140FE47259F5BD272A79 /* libnode-sdl2_mixer-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E5CF0EE3DD011BBF9023AFB /* Build configuration list for PBXNativeTarget "libnode-sdl2_mixer-ios" */;
+			buildPhases = (
+				32F0396702A7590AB6A9C0C3 /* Sources */,
+				99E7894CF6282B821788C25D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libnode-sdl2_mixer-ios";
+			productName = "node-sdl2_mixer-ios";
+			productReference = 53929E82D6AA03BA9750E034 /* libnode-sdl2_mixer-ios.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AD15F4D20213CED13AA39D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 9742C7733BE9F011C2630152 /* Build configuration list for PBXProject "node-sdl2_mixer" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 9C211EA2A52A267DB8F2A578;
+			projectDirPath = ..;
+			projectRoot = "";
+			targets = (
+				4F5A140FE47259F5BD272A79 /* libnode-sdl2_mixer-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32F0396702A7590AB6A9C0C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E6C4940D710BE2F4C19623 /* node-sdl2_mixer.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0E390D061E50C99DAA9EDD2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					__POSIX__,
+					_LARGEFILE_SOURCE,
+					_LARGEFILE64_SOURCE,
+					"_FILE_OFFSET_BITS=64",
+					"_DARWIN_USE_64_BIT_INODE=1",
+					"NODE_WANT_INTERNALS=1",
+					"NDEBUG=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				HEADER_SEARCH_PATHS = (
+					.,
+					"../node-sdl2",
+					../nan,
+					../../node/src,
+					../../node/deps/uv/include,
+					../../node/deps/v8/include,
+					"../../node/deps/debugger-agent/include",
+					../../node/deps/cares/include,
+					../../SDL2/include,
+					../../SDL2_mixer,
+				);
+				"OTHER_CFLAGS[arch=arm64]" = "-marm";
+				"OTHER_CFLAGS[arch=armv7]" = "-marm";
+				"OTHER_CFLAGS[arch=armv7s]" = "-marm";
+				PREBINDING = NO;
+				PRODUCT_NAME = "node-sdl2_mixer-ios";
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wendif-labels",
+					"-W",
+					"-Wno-unused-parameter",
+				);
+			};
+			name = Release;
+		};
+		39B86F2EF5E93B3A7F774221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SDKROOT = iphoneos;
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		60D846AEADE089B118186C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					__POSIX__,
+					_LARGEFILE_SOURCE,
+					_LARGEFILE64_SOURCE,
+					"_FILE_OFFSET_BITS=64",
+					"_DARWIN_USE_64_BIT_INODE=1",
+					"NODE_WANT_INTERNALS=1",
+					_DEBUG,
+					"DEBUG=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				HEADER_SEARCH_PATHS = (
+					.,
+					"../node-sdl2",
+					../nan,
+					../../node/src,
+					../../node/deps/uv/include,
+					../../node/deps/v8/include,
+					"../../node/deps/debugger-agent/include",
+					../../node/deps/cares/include,
+					../../SDL2/include,
+					../../SDL2_mixer,
+				);
+				"OTHER_CFLAGS[arch=arm64]" = "-marm";
+				"OTHER_CFLAGS[arch=armv7]" = "-marm";
+				"OTHER_CFLAGS[arch=armv7s]" = "-marm";
+				PREBINDING = NO;
+				PRODUCT_NAME = "node-sdl2_mixer-ios";
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wendif-labels",
+					"-W",
+					"-Wno-unused-parameter",
+				);
+			};
+			name = Debug;
+		};
+		AD67A6386CCBBEA80FA4882D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SDKROOT = iphoneos;
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E5CF0EE3DD011BBF9023AFB /* Build configuration list for PBXNativeTarget "libnode-sdl2_mixer-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60D846AEADE089B118186C70 /* Debug */,
+				0E390D061E50C99DAA9EDD2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+		9742C7733BE9F011C2630152 /* Build configuration list for PBXProject "node-sdl2_mixer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD67A6386CCBBEA80FA4882D /* Debug */,
+				39B86F2EF5E93B3A7F774221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AD15F4D20213CED13AA39D2 /* Project object */;
+}

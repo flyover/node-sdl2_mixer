@@ -1,9 +1,9 @@
 {
-  "name": "flyover-node-sdl2_mixer",
+  "name": "@flyover/node-sdl2_mixer",
   "version": "0.0.0",
   "author": "Flyover Games",
   "homepage": "http://flyovergames.com",
-  "description": "node sdl2_mixer module",
+  "description": "Node SDL2_mixer Package",
   "contributors": [
     "Isaac Burns <isaacburns@gmail.com>"
   ],

@@ -753,7 +753,6 @@ NANX_EXPORT(Mix_CloseAudio)
 
 NAN_MODULE_INIT(init)
 {
-
 	// SDL_mixer.h
 
 	NANX_CONSTANT(target, SDL_MIXER_MAJOR_VERSION);

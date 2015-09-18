@@ -67,7 +67,6 @@ public:
 		v8::Local<v8::Object> instance = object_template->NewInstance();
 		WrapMusic* wrap = new WrapMusic(music);
 		wrap->Wrap(instance);
-		wrap->MakeWeak(); // TODO: is this necessary?
 		return scope.Escape(instance);
 	}
 private:
@@ -117,7 +116,6 @@ public:
 		v8::Local<v8::Object> instance = object_template->NewInstance();
 		WrapChunk* wrap = new WrapChunk(chunk);
 		wrap->Wrap(instance);
-		wrap->MakeWeak(); // TODO: is this necessary?
 		return scope.Escape(instance);
 	}
 private:
